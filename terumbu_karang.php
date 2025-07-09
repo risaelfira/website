@@ -2,7 +2,6 @@
 session_start();
 
 if (!isset($_SESSION['user'])) {
-  // ✅ Redirect ke index + kirim pesan + arahkan scroll ke #contact
   header("Location: index.php?not_logged_in=1#contact");
   exit();
 }
@@ -103,7 +102,7 @@ if (!isset($_SESSION['user'])) {
 
   <!-- Footer -->
   <footer class="text-center py-6 bg-gray-200 mt-16">
-    <p>&copy; Dibuat oleh aku❤️</p>
+    <p>&copy; Dibuat oleh ....</p>
   </footer>
 
 </body>
