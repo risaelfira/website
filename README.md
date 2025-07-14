@@ -48,8 +48,11 @@ This project serves as a static website that showcases coral-related content. It
 
 ```
 website/
-├── terumbu_karang.php   # Main PHP page of the website
 ├── README.md          # Project documentation
+├── db.php   # Main PHP page of the website
+├── index.php   # Main PHP page of the website
+├── login.php   # Main PHP page of the website
+├── terumbu_karang.php   # Main PHP page of the website
 └── other/             # Additional files (e.g., CSS, images, or scripts)
 ```
 
